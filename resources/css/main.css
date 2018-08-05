@@ -2,12 +2,12 @@
 /* Universal Styles */
 html{
   font-size:16px;
-  color:black;
+  color:rgb(0, 0, 0);
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  text-align: center;
+
 }
 
 h1{
@@ -30,6 +30,10 @@ h4{
 
 
 p{
+  font-size:1rem;
+}
+
+li{
   font-size:1rem;
 }
 
@@ -63,25 +67,21 @@ color:black;
 }
 
 
-
-
 .navbar-right li img{
  padding-top:.2rem;
  height:1.5rem;
 }
 
-/* banner section styles*/
-.container .row h1{
-  padding-top:6rem;
-  margin-top:2rem;
-}
+/* home page banner section styles*/
 
 
 .banner-holder{
   width:100%;
   background-color:rgb(230, 247, 255);
-  height:20rem;
+  height:23rem;
   margin-top:3rem;
+  text-align: center;
+
 }
 
 .banner-holder img{
@@ -93,6 +93,7 @@ color:black;
 .banner-holder .heading{
   padding-top:1rem;
   padding-bottom:0.5rem;
+
 }
 
 .banner-holder .statement{
@@ -104,18 +105,65 @@ color:black;
   padding-bottom:0.5rem;
 
 }
+/* all page styles */
+.generic-holder{
+  width:100%;
+  background-color:rgb(255, 255, 255);
+  margin-top:1.5rem;
 
 
+}
 
-/* main section styles*/
+.generic-holder .generic-heading{
+  padding-top:1rem;
+  padding-bottom:0.5rem;
+
+}
+
+.generic-holder .generic-text{
+  font-size:1rem;
+}
+
+.generic-holder .generic-linktext{
+  font-size:1rem;
+  color:rgb(0, 0, 0);
+}
+
+.generic-holder img{
+  padding-top:4rem;
+  padding-bottom:1rem;
+
+}
+
+.generic-holder .heading-bold{
+  font-weight:bold;
+  font-size:1.2rem;
+}
+
+.generic-main{
+  background-color:rgb(255,255,255);
+  margin-top:3rem;
+
+}
+
+.generic-main .subheading{
+  padding-top:2rem;
+}
+
+/* main features styles*/
 .mainfeatures{
   padding:1.5rem 0rem;
   background-color:rgb(255,255,255);
 }
 
+.mainfeatures .subheading{
+  padding-top:1.75rem;
+}
+
 .featureitem{
 transition-property:opacity;
  transition-duration: 500ms;
+ text-align: center;
 
 }
 
