@@ -134,7 +134,7 @@ transition-property:opacity;
 
 /* OTHER PAGES- generic section on about, booking and treatment pages*/
 .generic-holder{
-  width:100%;
+  /*width:100%;*/
   background-color:rgb(255, 255, 255);
   margin-top:1.5rem;
   padding-bottom:1.5rem;
@@ -166,7 +166,7 @@ transition-property:opacity;
   font-weight:bold;
   font-size:1.2rem;
 }
-
+/* For treatment descriptive text on treatment page*/
 .generic-main{
   background-color:rgb(255,255,255);
   margin-top:3rem;
