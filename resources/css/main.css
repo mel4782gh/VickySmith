@@ -72,14 +72,11 @@ color:black;
  height:1.5rem;
 }
 
-/* home page banner section styles*/
-
-
+/* HOME PAGE - banner styles*/
 .banner-holder{
-  width:100%;
   background-color:rgb(230, 247, 255);
-  height:23rem;
   margin-top:3rem;
+  padding-left:2rem;
   text-align: center;
 
 }
@@ -105,7 +102,37 @@ color:black;
   padding-bottom:0.5rem;
 
 }
-/* all page styles */
+
+/* HOME PAGE main features links*/
+.mainfeatures{
+  padding:1.5rem 0rem;
+  background-color:rgb(255,255,255);
+}
+
+.mainfeatures .subheading{
+  padding-top:1.75rem;
+}
+
+.featureitem{
+transition-property:opacity;
+ transition-duration: 500ms;
+ text-align: center;
+
+}
+
+.featureitem a{
+  text-decoration: none;
+  color:black;
+}
+
+
+.featureitem:hover {
+  opacity:.5;
+  text-decoration:none;
+}
+
+
+/* OTHER PAGES- generic section on about, booking and treatment pages*/
 .generic-holder{
   width:100%;
   background-color:rgb(255, 255, 255);
@@ -147,35 +174,7 @@ color:black;
 }
 
 .generic-main .subheading{
-  padding-top:2rem;
-}
-
-/* main features styles*/
-.mainfeatures{
-  padding:1.5rem 0rem;
-  background-color:rgb(255,255,255);
-}
-
-.mainfeatures .subheading{
-  padding-top:1.75rem;
-}
-
-.featureitem{
-transition-property:opacity;
- transition-duration: 500ms;
- text-align: center;
-
-}
-
-.featureitem a{
-  text-decoration: none;
-  color:black;
-}
-
-
-.featureitem:hover {
-  opacity:.5;
-  text-decoration:none;
+  padding-top:1.5rem;
 }
 
 
